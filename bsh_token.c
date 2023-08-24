@@ -10,7 +10,7 @@
 
 char **bshstrgtow(char *strg, char *strg_deli)
 {
-	int no_wrds, j, n, l, z  = 0;
+	int j, z, l, n, no_wrds = 0;
 	char **p;
 
 	if (strg == NULL || strg[0] == 0)
